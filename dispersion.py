@@ -9,14 +9,10 @@ import pywi.runs.heckle as heckle
 import h5py
 import os
 import numpy as np
-import pyphare
-from pyphare.pharesee.hierarchy import finest_data
-from pyphare.pharesee.hierarchy import hierarchy_from, hierarchy_fromh5
-from pyphare.pharesee.plotting import zoom_effect
+from pyphare.pharesee.hierarchy import finest_field
 import matplotlib.pyplot as plt
 from pyphare.pharesee.run import Run
 from scipy.ndimage import gaussian_filter as gf
-from pyphare.pharesee.hierarchy import compute_hier_from
 from scipy.fft import rfft2, rfftfreq
 from matplotlib.colors import LogNorm
 
